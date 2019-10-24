@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(158, 172, 255);
+    position: relaitve;
+}
+p {
+    color: slateblue;
+    position: relative;
+}
+
+h1 {
+    color: slateblue;
+}
+
+hr {
+    background-color: slateblue;
+    height: 5px;
+}

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="fortune_form.css">     
+    </head>
+    <h1>What's Your Fortune?</h1>
+    <hr>
+<body>
+<p>
+What's your Favorite animal from the drop down list below?
+</p>
+<form action="/fortune_form.html" method="GET">
+    <input list="animals" name="animals">
+    <datalist id="animals">
+        <option value="Tiger">
+        <option value="Horse">
+        <option value="Bear">
+        <option value="Eagle">
+        <option value="Lion">
+        <option value="Gorilla">
+        <option value="Cheetah">
+        <option value="Wolf">
+        <option value="Panther">
+        <option value="Human">
+    </datalist>
+<!--<input type="submit">-->
+</form>
+<hr>
+<form action="/fortune_form.html">
+<p>Do you enjoy taking vacations?</p>
+    <input type="radio" name="travel" value="Yes"> Yes<br>
+    <input type="radio" name="travel" value="No"> No<br>
+    <input type="radio" name="travel" value="Unsure"> Unsure
+</form>
+<hr>
+<form action="/fortune_form.html">
+<p>Are you afraid of robots?</p>
+    <input type="radio" name="travel" value="Yes"> Yes<br>
+    <input type="radio" name="travel" value="No"> No<br>
+    <input type="radio" name="travel" value="Unsure"> Maybe
+</form>
+<hr>
+<p> Check all the types of pets that you have had in your life.</p>
+<form action="/fortune_form.html">
+    <input type="checkbox" name="Pet1" value="Dog"> Dog<br>
+    <input type="checkbox" name="Pet2" value="Cat"> Cat<br>
+    <input type="checkbox" name="Pet3" value="Reptile">Reptile<br>
+    <input type="checkbox" name="Pet4" value="Bird"> Bird<br><br>
+</form>
+<hr>
+<form action="/fortune_form.html">
+    Select your spirit color: <input type="color" name="spiritcolor" value="#ff0000"><br>
+    <input type="submit">
+</form>
+</body>
+</html>
